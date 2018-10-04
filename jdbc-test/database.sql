@@ -7,3 +7,4 @@ CREATE TABLE Student(
   AGE  INT NOT NULL,
   PRIMARY KEY (ID)
 );
+select * from Student where id=2

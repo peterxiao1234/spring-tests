@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="aop-test" />
+        <module name="ConfigJavaBased" />
+        <module name="customEvent-test" />
+        <module name="event-test" />
+        <module name="jdbc-test" />
+        <module name="portlet-test" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="aop-test" target="1.8" />
+      <module name="ConfigJavaBased" target="1.5" />
+      <module name="customEvent-test" target="1.5" />
+      <module name="event-test" target="1.5" />
+      <module name="jdbc-test" target="1.5" />
+      <module name="learns" target="1.8" />
+      <module name="portlet-test" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

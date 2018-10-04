@@ -9,4 +9,7 @@
         <property name = "username" value = "root"/>
         <property name = "password" value = "password"/>
     </bean>
+    <bean id="studentJDBCTemplate" class="StudentJDBCTemplate">
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
 </beans>
